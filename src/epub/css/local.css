@@ -1,7 +1,65 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+b{
+	font-weight: normal;
+	font-variant: small-caps;
+}
+
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+blockquote header{
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:recipient"]{
+	font-style: italic;
+}
+
+[epub|type~="z3998:song"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+/* Equation in chapter 2 */
+.equation{
+	text-align: center;
+}
+
+/* Visiting card in chapter 12 */
+.visiting-card{
+	border: 2px solid;
+	max-width: 16em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	text-align: center;
+	font-style: italic;
+}
+
+.visiting-card :first-line{
+	font-size: 1.125em;
 }
