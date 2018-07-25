@@ -58,6 +58,7 @@ footer{
 	padding: 2em;
 	text-align: center;
 	font-style: italic;
+	page-break-inside: avoid;
 }
 
 .visiting-card :first-line{
