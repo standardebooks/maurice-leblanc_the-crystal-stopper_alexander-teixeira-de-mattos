@@ -1,11 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -13,7 +8,6 @@ span[epub|type~="subtitle"]{
 
 blockquote header{
 	margin-bottom: 1em;
-	text-align: center;
 }
 
 footer{
