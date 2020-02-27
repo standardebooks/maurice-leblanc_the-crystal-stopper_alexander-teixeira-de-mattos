@@ -39,12 +39,12 @@ footer{
 }
 
 /* Equation in chapter 2 */
-.equation{
+#chapter-2 blockquote:nth-of-type(2){
 	text-align: center;
 }
 
 /* Visiting card in chapter 12 */
-.visiting-card{
+#chapter-12 blockquote:last-child{
 	border: 1px solid;
 	max-width: 16em;
 	margin-left: auto;
@@ -55,6 +55,6 @@ footer{
 	page-break-inside: avoid;
 }
 
-.visiting-card *:first-line{
+#chapter-12 blockquote:last-child *:first-line{
 	font-size: 1.125em;
 }
