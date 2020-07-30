@@ -52,7 +52,7 @@ footer{
 	padding: 2em;
 	text-align: center;
 	font-style: italic;
-	page-break-inside: avoid;
+	break-inside: avoid;
 }
 
 #chapter-12 blockquote:last-child *:first-line{
