@@ -51,5 +51,5 @@ footer{
 }
 
 #chapter-12 blockquote:last-child *:first-line{
-	font-size: 1.125em;
+	font-size: larger;
 }
