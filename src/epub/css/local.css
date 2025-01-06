@@ -53,3 +53,7 @@ footer{
 #chapter-12 blockquote:last-child *:first-line{
 	font-size: larger;
 }
+
+.telegram{
+	font-variant: all-small-caps;
+}
