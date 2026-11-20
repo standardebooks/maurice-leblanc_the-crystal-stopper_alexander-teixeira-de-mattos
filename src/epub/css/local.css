@@ -50,8 +50,10 @@ footer{
 	text-align: center;
 }
 
-#chapter-12 blockquote:last-child *:first-line{
-	font-size: larger;
+@supports selector(::first-line){
+	#chapter-12 blockquote:last-child *::first-line{
+		font-size: larger;
+	}
 }
 
 .telegram{
